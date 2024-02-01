@@ -1,0 +1,71 @@
+.tanmania {
+    padding: 65px 0px;
+    background-color: #f5f5f5;
+    margin: 65px 0px;
+}
+
+.tanmania .container {
+    max-width: 1245px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.tanmania_list {
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: #efe6dc;
+    flex-direction: column;
+    padding: 0px 90px;
+}
+
+.tanmania_list_heading h4 {
+    font-family: ZapfHumnst BT !important;
+    letter-spacing: 0.5px;
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.tanmania_list_paragraph p {
+    font-size: 15px;
+    color: #333333;
+    font-family: 'Questrial-Regular' !important;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.tanmania_list_button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #000;
+    padding: 10px 30px;
+}
+
+@media only screen and (max-width: 992px) {
+    .tanmania_list {
+        padding: 0px 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .tanmania_list {
+        padding: 40px 40px;
+    }
+
+    .tanmania_img {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .tanmania {
+        padding: 45px 0px;
+        background-color: #f5f5f5;
+        margin: 30px 0px;
+    }
+
+    .tanmania_list {
+        padding: 20px 30px;
+    }
+}

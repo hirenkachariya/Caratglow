@@ -1,0 +1,410 @@
+.header,
+.header_show {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: #fff;
+}
+
+.header .container {
+    max-width: 1470px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header>.row {
+    align-items: center;
+}
+
+.header_paragraph {
+    display: flex;
+    justify-content: center;
+    background-color: #a5508c;
+    color: #fff;
+    padding: 2px 0px;
+}
+
+.header_paragraph p {
+    font-size: 14px;
+    margin: 0px;
+    padding-right: 10px;
+}
+
+.header_paragraph a {
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.header_paragraph a:hover {
+    text-decoration: none;
+}
+
+.header_info {
+    display: flex;
+}
+
+.header_email {
+    padding-left: 20px;
+}
+
+.header_call span,
+.header_email span {
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 4px;
+    color: #505050;
+}
+
+.header_logo {
+    text-align: center;
+}
+
+.header_logo img {
+    max-width: 260px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.header_menu {
+    background-color: #fff;
+    position: relative;
+    padding-top: 10px;
+}
+
+.header_list ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.header_list li {
+    position: relative;
+}
+
+.header_list li span {
+    position: absolute;
+    background-color: #a5508c;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    line-height: 18px;
+    right: 0;
+    top: -10px;
+}
+
+.header_list li {
+    padding: 0px 9px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    display: flex;
+    color: #505050;
+}
+
+.header_list li svg {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.header_menu_list {
+    padding-top: 15px;
+}
+
+.header_menu_list>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_menu_list>ul>li {
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #505050;
+}
+
+.header_show {
+    padding: 20px 0px;
+}
+
+.header_show .container {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 auto;
+}
+
+.header_show .row {
+    display: flex;
+    align-items: center;
+}
+
+.header_show_menu svg {
+    font-size: 30px;
+    color: #303030;
+}
+
+.header_show_logo {
+    text-align: center;
+}
+
+.header_show_logo img {
+    max-width: 200px;
+    width: 100%;
+}
+
+.header_show_list ul {
+    display: flex;
+    justify-content: end;
+}
+
+.header_show_list svg {
+    font-size: 28px;
+}
+
+.header_show_list li {
+    position: relative;
+    padding: 0px 8px;
+
+}
+
+.header_show_list li span {
+    position: absolute;
+    background-color: #a5508c;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    line-height: 18px;
+    right: 0;
+    top: -10px;
+}
+
+.offcanvas-body {
+    padding: 0px;
+}
+
+.accordion-button {
+    padding: 15px 15px;
+    font-size: 16px;
+    color: #505050 !important;
+    text-transform: capitalize;
+    justify-content: space-between;
+    font-weight: 400;
+    border-radius: 0px !important;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.accordion-item:first-of-type .accordion-button:focus {
+    outline: none;
+}
+
+.accordion-button:focus {
+    border: 0;
+    box-shadow: 0 0 0;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: inherit;
+    box-shadow: 0 0 0;
+}
+
+.accordion-button svg {
+    font-size: 20px;
+}
+
+.accordion-body {
+    padding: 15px;
+}
+
+.Earring,
+.Pendant,
+.tanmania,
+.Bangle {
+    padding-top: 15px;
+}
+
+.ring_heading h6,
+.Earring_heading h6,
+.Pendant_heading h6,
+.tanmania_heading h6 {
+    font-size: 15px;
+}
+
+.ring_list li,
+.Earring_list li,
+.Pendant_list li,
+.tanmania_lists li {
+    padding-bottom: 8px;
+    color: #303030;
+}
+
+.shopby {
+    padding-top: 25px;
+}
+
+.shopby_heading h6,
+.jewelery_heading h6 {
+    font-size: 14px;
+    color: #000;
+}
+
+.jewelery_list li,
+.shopby_list li {
+    color: #303030;
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.Bangle_list li {
+    font-size: 15px;
+    padding-top: 8px;
+}
+
+.mydropdown {
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+    opacity: 0;
+    background-color: #fff;
+    left: 0;
+    top: 101%;
+    padding: 0 100px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.header_menu_list ul .main_menus:hover .mydropdown {
+    visibility: visible;
+    opacity: 1;
+}
+
+.list_ring_heading h6,
+.list_earring_heading h6,
+.list_pendant_heading h6,
+.list_tanmania_heading h6,
+.list_bangle_heading h6,
+.list_nosepin_heading h6,
+.header_all_list_shop_heading h6,
+.header_all_list_price_heading h6,
+.header_all_list_weight_heading h6,
+.header_all_list_color_heading h6 {
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.header_all_list_bottom {
+    padding-top: 20px;
+}
+
+.list_ring_name li,
+.list_earring_name li,
+.list_pendant_name li,
+.list_tanmania_name li,
+.list_bangle_name li,
+.list_nosepin_name li,
+.header_all_list_shop_list li,
+.header_all_list_price_list li,
+.header_all_list_weight_list li,
+.header_all_list_color_list li {
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #505050;
+    cursor: pointer;
+}
+
+.mydropdowns {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.mydropdownsv {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.mydropdownsvg {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px 0px;
+}
+
+.list_ring_names {
+    padding-top: 20px;
+}
+
+.offcanvas-body {
+    padding: 0px;
+    margin-top: 73px;
+}
+
+@media only screen and (max-width: 1099px) {
+    .header_logo img {
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .header_show_menu svg {
+        font-size: 25px;
+    }
+
+    .header_show_list svg {
+        font-size: 25px;
+    }
+
+    .ring_heading h6,
+    .Earring_heading h6,
+    .Pendant_heading h6,
+    .tanmania_heading h6 {
+        font-size: 14px;
+    }
+
+    .ring_list li,
+    .Earring_list li,
+    .Pendant_list li,
+    .tanmania_lists li {
+        font-size: 14px;
+    }
+
+    .Bangle_heading h6 {
+        font-size: 14px;
+    }
+
+    .Bangle_list li {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .header_show_menu svg {
+        font-size: 20px;
+    }
+
+    .header_show_list li {
+        padding: 0px 5px;
+    }
+
+    .header_show_list svg {
+        font-size: 20px;
+    }
+}

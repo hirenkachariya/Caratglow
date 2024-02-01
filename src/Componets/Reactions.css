@@ -1,0 +1,115 @@
+.reactions .container {
+    max-width: 1245px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.reactions .owl-theme {
+    max-width: 835px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.reactions_heading {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.reactions_heading h4 {
+    font-size: 32px;
+    font-family: ZapfHumnst BT !important;
+    letter-spacing: 0.5px;
+    color: #000;
+}
+
+.reactions_right {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.reactions_right_paragraph p {
+    font-size: 20px;
+    color: #303030;
+    line-height: 1.7;
+}
+
+.reactions_position {
+    border: 3px solid #7a6263;
+    text-align: center;
+    border-radius: 45px;
+    position: relative;
+    z-index: 2;
+    margin: 0 20px;
+}
+
+.reactions_position_div {
+    margin: 0px 8px;
+    padding: 40px;
+}
+
+.reactions_position_div::after {
+    content: "";
+    position: absolute;
+    right: -10px;
+    bottom: -34px;
+    background: url(../img//quote_bottom.png) no-repeat #fff;
+    background-size: 50%;
+    width: 70px;
+    height: 75px;
+    background-position: 26px 14px;
+}
+
+.reactions_position_div::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: -35px;
+    background: url(../img/quote_bottom.png) no-repeat #fff;
+    background-size: 50%;
+    width: 70px;
+    height: 75px;
+    transform: rotate(180deg);
+    background-position: 26px 14px;
+}
+
+.reactions_left {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #7a626373;
+    box-shadow: 1px 0px 9px 1px #7a626373;
+}
+
+.reactions_right_span span {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+}
+
+.reactions .owl-nav {
+    display: none !important;
+}
+
+.reactions .owl-dots {
+    padding-top: 40px !important;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .reactions .owl-theme {
+        max-width: 555px;
+    }
+    .reactions_right {
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .reactions_right_paragraph p {
+        font-size: 16px;
+    }
+
+}

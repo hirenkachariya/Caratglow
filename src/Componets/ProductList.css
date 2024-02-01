@@ -1,0 +1,14 @@
+.ProductList_list_heading {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.ProductList_list_heading h6{
+    font-size: 15px;
+    color: #303030;
+    font-weight: 400;
+}
+
+.ProductList_list_img img {
+    cursor: pointer;
+}

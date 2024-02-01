@@ -1,0 +1,74 @@
+.product .container {
+    max-width: 1245px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.product_main {
+    text-align: center;
+}
+
+.product_button ul {
+    justify-content: center;
+    border: none;
+}
+
+.product_button {
+    padding-top: 20px;
+}
+
+.product_heading h4 {
+    font-family: ZapfHumnst BT !important;
+    letter-spacing: 0.5px;
+    font-size: 32px;
+}
+
+.product_paragraph p {
+    font-size: 15px;
+    color: #303030;
+    max-width: 785px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background-color: #7a6263;
+    color: #fff !important;
+}
+
+.nav-link:focus-visible {
+    box-shadow: 0 0 0 0 !important;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border: 1px solid #cbcbcb;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid #cbcbcb;
+    color: #303030;
+    border-radius: 3px !important;
+    padding: 4px 15px;
+    margin-right: 10px;
+    min-width: 100px;
+}
+
+.product_button .owl-theme {
+    padding-top: 20px;
+}
+
+.Pendant_list_heading {
+    text-align: center;
+}
+
+.Pendant_list_heading h6 {
+    font-size: 15px;
+    color: #303030;
+    font-weight: 400;
+}
+
+.product .owl-theme .owl-nav {
+    display: none !important;
+}

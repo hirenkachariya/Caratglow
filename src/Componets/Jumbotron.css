@@ -1,0 +1,35 @@
+.jumbotron .container {
+    max-width: 1245px !important;
+    width: 100% !important;
+    margin: 0 auto;
+}
+
+.jumbotron_left_img {
+    text-align: right;
+}
+
+.jumbotron_left_img img {
+    max-width: 496px;
+    width: 100%;
+}
+
+.jumbotron_right_img {
+    text-align: right;
+}
+
+.jumbotron_right_img img {
+    max-width: 496px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .jumbotron_left_img,
+    .jumbotron_right_img {
+        text-align: center;
+    }
+    .jumbotron_right_img {
+        padding-top: 20px   ;
+    }
+}

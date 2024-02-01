@@ -1,0 +1,80 @@
+.banner {
+  padding: 60px 0px;
+  position: relative;
+}
+
+.banner .owl-carousel .owl-nav.disabled,
+.owl-carousel .owl-dots.disabled {
+  display: block !important;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+  background: transparent !important;
+}
+
+.banner .container {
+  max-width: 1245px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+
+.banner_heading {
+  padding-bottom: 10px;
+}
+
+.banner_heading h4 {
+  font-size: 28px;
+  color: #000;
+  letter-spacing: 0.5px;
+  font-family: ZapfHumnst BT !important;
+}
+
+.banner_one_heading,
+.banner_two_heading,
+.banner_three_heading,
+.banner_four_heading {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.banner_one_heading h5,
+.banner_two_heading h5,
+.banner_three_heading h5,
+.banner_four_heading h5 {
+  font-size: 18px;
+  color: #303030;
+  font-weight: 400;
+}
+
+.banner .owl-nav {
+  position: absolute;
+  top: -60px;
+  right: 0;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner {
+    padding: 50px 0px;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .banner .owl-nav {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .banner {
+    padding: 30px 0px;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .banner .owl-nav {
+    font-size: 16px;
+  }
+}

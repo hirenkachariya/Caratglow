@@ -1,0 +1,38 @@
+.lorem {
+    background-color: #7a6263;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: 65px 0px;
+}
+
+.lorem .container {
+    max-width: 1245px !important;
+    width: 100% !important;
+    margin: 0 auto;
+}
+
+.lorem_one {
+    text-align: center;
+}
+
+.lorem_one_img img {
+    max-width: 57px;
+    width: 100%;
+}
+
+
+.lorem_one_heading {
+    padding-top: 10px;
+}
+
+.lorem_one_heading h4 {
+    font-size: 20px;
+    font-family: ZapfHumnst BT !important;
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+
+.lorem_one_paragraph p {
+    color: #fff;
+    font-size: 14px;
+}

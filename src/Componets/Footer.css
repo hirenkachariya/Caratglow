@@ -1,0 +1,152 @@
+.footer .container {
+    max-width: 1245px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.footer_blog {
+    padding-top: 50px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.footer_one_heading,
+.footer_two_heading,
+.menu_list_heading,
+.newsletter_heading {
+    padding-bottom: 10px;
+}
+
+.footer_one_heading h5,
+.footer_two_heading h5,
+.menu_list_heading h5,
+.newsletter_heading h5,
+.Follow_heading h5 {
+    font-family: ZapfHumnst BT !important;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+}
+
+.footer_one_paragraph p,
+.footer_two_list li,
+.newsletter_paragraph p {
+    font-size: 15px;
+    color: #303030;
+}
+
+.footer_two_list li {
+    padding-bottom: 5px;
+}
+
+.menu_list_blog li {
+    font-size: 15px;
+    color: #505050;
+    margin-bottom: 8px;
+}
+
+.newsletter_input {
+    position: relative;
+}
+
+.newsletter_input input {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    border-radius: 21px;
+    padding: 6px 20px;
+    color: #505050;
+}
+
+.newsletter_input input::placeholder {
+    font-size: 14px !important;
+    color: #dbdbdb !important;
+    font-weight: 500;
+}
+
+.newsletter_input span {
+    position: absolute;
+    right: 0;
+    background: #777;
+    border-radius: 72px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 7px 25px;
+    top: 1px;
+}
+
+.Follow_list ul {
+    display: flex;
+}
+
+.Follow_list ul li {
+    padding-right: 20px;
+}
+
+.Follow_list svg {
+    font-size: 26px;
+    color: #777777;
+}
+
+.Follow_heading {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.fdivsv {
+    color: #6a6a6a !important;
+    font-size: 15px;
+    line-height: 1.7;
+    padding-top: 20px;
+    word-wrap: break-word;
+}
+
+.fdivsv span {
+    margin: 8px;
+}
+
+.footer_bottom {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.footer_bottom p {
+    font-size: 15px;
+    margin: 0px;
+}
+
+.footer_bottom span {
+    font-size: 15px;
+    color: #303030;
+    text-decoration: underline;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+    .newsletter {
+        padding-top: 10px;
+    }
+
+    .Follow_heading {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    .Follow_list svg {
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .footer_one_heading,
+    .footer_two_heading,
+    .menu_list_heading,
+    .newsletter_heading {
+        padding-bottom: 5px;
+    }
+}

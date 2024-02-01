@@ -1,0 +1,62 @@
+.specialist {
+    padding: 65px 0px;
+}
+
+.specialist .container {
+    max-width: 1245px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.specialist_list {
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: #efe6dc;
+    flex-direction: column;
+    padding-left: 60px;
+
+}
+
+.specialist_list_heading h4 {
+    font-family: ZapfHumnst BT !important;
+    letter-spacing: 0.5px;
+    font-size: 28px;
+    color: #000;
+}
+
+.specialist_list_paragraph p {
+    font-size: 15px;
+    color: #333333;
+    font-family: 'Questrial-Regular' !important;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    max-width: 350px;
+    width: 100%;
+}
+
+.specialist_list_button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #000;
+    padding: 10px 30px;
+}
+
+@media only screen and (max-width: 992px) {
+    .specialist {
+        padding: 50px 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .specialist_list {
+        padding: 40px 40px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .specialist {
+        padding: 45px 0px;
+    }
+}
